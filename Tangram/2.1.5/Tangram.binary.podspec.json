@@ -1,0 +1,37 @@
+{
+  "name": "Tangram",
+  "version": "2.1.5",
+  "summary": "Tangram is a modular UI solution for building native page dynamically & quickly.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n          Tangram is a modular UI solution for building native page dynamically & quickly.\nAnd Tangram 2.x with VirtualView can create & release UI component dynamically.\nThe solution also have an implementation for Andriod platform.",
+  "homepage": "https://github.com/alibaba/Tangram-iOS",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "fydx": "lbgg918@gmail.com",
+    "HarrisonXi": "gpra8764@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "http": "http://localhost:8080/frameworks/Tangram/2.1.5/zip",
+    "type": "zip"
+  },
+  "resources": "bin_Tangram_2.1.5/Resources/*",
+  "source_files": "bin_Tangram_2.1.5/Headers/*",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 4.2"
+    ],
+    "LazyScroll": [
+      "1.0.1"
+    ],
+    "VirtualView": [
+      "1.2.7"
+    ]
+  },
+  "public_header_files": "bin_Tangram_2.1.5/Headers/*.h",
+  "vendored_libraries": "bin_Tangram_2.1.5/*.a"
+}
