@@ -1,0 +1,50 @@
+{
+  "name": "QIYU_iOS_SDK_OpenSource",
+  "version": "4.7.1",
+  "license": {
+    "type": "Copyright",
+    "text": " Copyright 2016 Netease \n"
+  },
+  "summary": "网易七鱼客服访客端 iOS SDK",
+  "homepage": "http://www.qiyukf.com",
+  "authors": {
+    "qiyukf": "yunshangfu@126.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/QIYU_iOS_SDK_OpenSource/4.7.1/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "public_header_files": "bin_QIYU_iOS_SDK_OpenSource_4.7.1/Headers/*.h",
+  "source_files": "bin_QIYU_iOS_SDK_OpenSource_4.7.1/Headers/*",
+  "resources": "bin_QIYU_iOS_SDK_OpenSource_4.7.1/Resources/*",
+  "frameworks": [
+    "UIKit",
+    "SystemConfiguration",
+    "MobileCoreServices",
+    "CoreTelephony",
+    "CoreText",
+    "CoreMedia",
+    "AudioToolbox",
+    "AVFoundation",
+    "Photos",
+    "AssetsLibrary",
+    "CoreMotion",
+    "ImageIO"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3.0",
+    "xml2",
+    "c++"
+  ],
+  "requires_arc": true,
+  "prefix_header_contents": "#import <UIKit/UIKit.h>\n                                #import \"YSFMacro.h\"\n                                #import \"UIView+YSFToast.h\"\n                                #import \"UIImage+GetImage.h\"\n                                #import \"UIView+Animation.h\"\n                                #import \"UIView+YSFWebCacheOperation.h\"\n                                #import \"UIAlertView+YSF.h\"\n                                #import \"UIView+YSF.h\"\n                                #import \"UIImage+YSF.h\"\n                                #import \"NSString+YSF.h\"\n                                #import \"NSDictionary+YSF.h\"\n                                #import \"NIMSDK.h\"",
+  "xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "NDEBUG=1"
+  },
+  "vendored_libraries": "bin_QIYU_iOS_SDK_OpenSource_4.7.1/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
+}
