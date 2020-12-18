@@ -1,0 +1,24 @@
+{
+  "name": "TMUtils",
+  "version": "1.0.1",
+  "summary": "Common safe methods & utils for NSArray & NSDictionary.",
+  "homepage": "https://github.com/alibaba/LazyScrollView",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "HarrisonXi": "gpra8764@gmail.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/TMUtils/1.0.1/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_TMUtils_1.0.1/Headers/*",
+  "requires_arc": true,
+  "public_header_files": "bin_TMUtils_1.0.1/Headers/*.h",
+  "vendored_libraries": "bin_TMUtils_1.0.1/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
+}
