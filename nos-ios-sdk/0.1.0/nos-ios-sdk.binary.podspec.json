@@ -1,0 +1,24 @@
+{
+  "name": "nos-ios-sdk",
+  "version": "0.1.0",
+  "summary": "NOS 文件直传SDK",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiehu5114/nos-ios-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiehu5114": "hzhujie1@corp.netease.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/nos-ios-sdk/0.1.0/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "bin_nos-ios-sdk_0.1.0/Headers/*",
+  "public_header_files": "bin_nos-ios-sdk_0.1.0/Headers/*.h",
+  "vendored_libraries": "bin_nos-ios-sdk_0.1.0/*.a"
+}
