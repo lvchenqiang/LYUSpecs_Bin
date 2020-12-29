@@ -1,0 +1,25 @@
+{
+  "name": "SSZipArchive",
+  "version": "0.3.1",
+  "summary": "Utility class for zipping and unzipping files on iOS and Mac.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n SSZipArchive is a simple utility class for zipping and unzipping files on iOS and Mac.",
+  "homepage": "https://github.com/soffes/ssziparchive",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sam Soffes": "sam@soff.es"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/SSZipArchive/0.3.1/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "4.0"
+  },
+  "libraries": "z",
+  "source_files": "bin_SSZipArchive_0.3.1/Headers/*",
+  "public_header_files": "bin_SSZipArchive_0.3.1/Headers/*.h",
+  "vendored_libraries": "bin_SSZipArchive_0.3.1/*.a"
+}
