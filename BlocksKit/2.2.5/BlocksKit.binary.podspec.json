@@ -1,0 +1,26 @@
+{
+  "name": "BlocksKit",
+  "version": "2.2.5",
+  "license": "MIT",
+  "summary": "The Objective-C block utilities you always wish you had.",
+  "homepage": "https://zwaldowski.github.io/BlocksKit",
+  "authors": {
+    "Zachary Waldowski": "zach@waldowski.me",
+    "Alexsander Akers": "a2@pnd.mn"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/BlocksKit/2.2.5/zip",
+    "type": "zip"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "6.0"
+  },
+  "ios": {
+    "frameworks": "MessageUI"
+  },
+  "source_files": "bin_BlocksKit_2.2.5/Headers/*",
+  "public_header_files": "bin_BlocksKit_2.2.5/Headers/*.h",
+  "vendored_libraries": "bin_BlocksKit_2.2.5/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
+}
